@@ -1,0 +1,6 @@
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+
+app.MapGet("/", () => "Xin chào, tôi là Cao Duyệt AT170114");
+
+app.Run();
